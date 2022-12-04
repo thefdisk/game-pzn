@@ -18,7 +18,7 @@ object Game {
         "SCISSORS-PAPER" to true,
         "SCISSORS-ROCK" to false,
         "PAPER-ROCK" to true,
-        "PAPER-SCISSORS" to true
+        "PAPER-SCISSORS" to false
     )
 
     fun pickRandomOption(): String = options[Random.nextInt(0, 3)]
